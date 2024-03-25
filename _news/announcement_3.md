@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our work Gemini is awarded with <b style="color:red;">Distinguished Artifact Award (1/410)</b> :sparkles: :smile: 
+Our work Gemini is awarded with <b style="color:red;">HPCA Distinguished Artifact Award (1/410)</b> :sparkles: :smile: 
 
