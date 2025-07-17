@@ -17,9 +17,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the pag
 ---
 
-I am currently a 4th-year Ph.D. student at Archiplab, Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, under the supervision of Prof. Kaisheng Ma. My research interests primarily focused on multicore/chiplet DNN accelerator architecture and compilation, silicon photonics wafer-scale computing architecture. My academic works have been widely adopted to varying degrees by numerous academic groups and industries. I have also actively promoted the practical application of these works. Currently, I lead a team implementing these works in multiple generations of high-performance autonomous driving chips and two compiler generations at Polar Bear Tech.
+I am currently a 4th-year Ph.D. student at Archiplab, Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, under the supervision of Prof. Kaisheng Ma. My research interests primarily focused on multicore/chiplet DNN accelerator architecture and compilation, silicon photonics wafer-scale computing architecture. My academic works have been widely adopted to varying degrees by numerous academic groups and industries. I have also actively promoted the practical application of these works. From 2020 to 2025, I led a team at Polar Bear Tech that implemented these contributions across multiple generations of high‑performance autonomous‑driving chips and two compiler iterations; our latest chip, QM‑935, will enter mass production and be integrated into vehicles this year. I am currently a ***TOPSEED INTERN*** in the ByteDance SEED heterogeneous‑computing team, focusing on ***co‑designing inference chips with cloud‑side workload and framework requirements***.
 
-***For more information, please refer to my CV. I am expected to graduate in 2026 and am currently seeking employment opportunities with talent plan in the industry.***
+***For more information, please refer to my CV. I am expected to graduate in 2026 and am actively pursuing industry positions through top‑talent programs. I have already been selected for the elite talent tracks at ByteDance Seed, Huawei, Tencent, Xiaomi, and JD.com.***
 
 
 
