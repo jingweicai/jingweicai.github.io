@@ -8,7 +8,7 @@ profile:
   align: right
   image: photo_jingwei.jpg
   image_circular: false # crops the image to make it circular
-  # more_info: 
+  # more_info:
   #   <p>FIT Building</p>
   #   <p>Beijing</p>
 
