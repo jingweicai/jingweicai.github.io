@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I got <b style="color:red;">National Prize</b> (only 1 place among all CS PHD students in IIIS,THU) :sparkles: :smile: 
-
+I received the <b style="color:red;">Doctoral National Scholarship</b> at IIIS, Tsinghua University.

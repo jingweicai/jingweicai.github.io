@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Google Scholar link is https://scholar.google.com/citations?hl=en&user=OSxlefIAAAAJ
+description: "Selected publications. Google Scholar: https://scholar.google.com/citations?user=qc6CJjYAAAAJ"
 nav: true
 nav_order: 2
 ---

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work SoMa has been accepted by <b style="color:red;">HPCA2025</b>! :sparkles: :smile: 
+Our work <strong>SoMa</strong> was accepted to <strong>HPCA 2025</strong>.

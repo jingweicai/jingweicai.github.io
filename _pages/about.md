@@ -8,24 +8,17 @@ profile:
   align: right
   image: photo_jingwei.jpg
   image_circular: false # crops the image to make it circular
-  # more_info: 
+  # more_info:
   #   <p>FIT Building</p>
   #   <p>Beijing</p>
 
 news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the pag
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the pag
 ---
 
-I am currently a 4th-year Ph.D. student at Archiplab, Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, under the supervision of Prof. Kaisheng Ma. My research interests primarily focused on multicore/chiplet DNN accelerator architecture and compilation, silicon photonics wafer-scale computing architecture. My academic works have been widely adopted to varying degrees by numerous academic groups and industries. I have also actively promoted the practical application of these works. From 2020 to 2025, I led a team at Polar Bear Tech that implemented these contributions across multiple generations of high‑performance autonomous‑driving chips and two compiler iterations; our latest chip, QM‑935, will enter mass production and be integrated into vehicles this year. I am currently a ***TOPSEED INTERN*** in the ByteDance SEED heterogeneous‑computing team, focusing on ***co‑designing inference chips with cloud‑side workload and framework requirements***.
+I am a Ph.D. candidate at Archiplab, Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, advised by Prof. Kaisheng Ma. My research focuses on DNN accelerator architecture and compiler design for 2.5D/3D/wafer-scale chiplets, wafer-scale silicon photonic computing, recommendation-system acceleration, and cloud LLM inference optimization.
 
-***For more information, please refer to my CV. I am expected to graduate in 2026 and am actively pursuing industry positions through top‑talent programs. I have already been selected for the elite talent tracks at ByteDance Seed, Huawei, Tencent, Xiaomi, and JD.com.***
+My work spans both academic research and production deployment. I have published 7 papers, including 5 first-author papers in CCF-A computer architecture venues, and received the HPCA 2024 Distinguished Artifact Award. Since 2020, I have led chip architecture and compiler efforts at Arctic Xiongxin across multiple generations of Qiming DNN accelerators and compiler stacks. At ByteDance SEED, I work on workload characterization, 3D DRAM chip co-design, early architecture simulation, and online LLM inference optimization.
 
-
-
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
- -->
+For more details, please see my CV. I am currently working at ByteDance SEED and remain open to exceptional opportunities where I can tackle ambitious problems and make a broader impact.
