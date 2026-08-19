@@ -2,18 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Jingwei Cai # the website title (if blank, full name will be used instead)
 first_name: Jingwei
 middle_name: 
 last_name: Cai
 email: caijw21@mails.tsinghua.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Jingwei Cai's Homepage
+  Jingwei Cai's academic homepage and curriculum vitae.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Architecture, Compiler, Many-core, Chiplet, DNN, accelerators # add your own keywords or leave empty
+keywords: Architecture, Compiler, Many-core, Chiplet, DNN accelerators, LLM inference, 3D DRAM, wafer-scale computing # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -67,7 +67,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: jingweicai # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -104,7 +104,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is by email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -123,13 +123,13 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: notes # blog_name will be displayed in your blog page
+blog_description: research notes and updates
 permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
   enabled: true
@@ -157,9 +157,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -171,9 +169,6 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
 
 announcements:
   enabled: true
@@ -216,6 +211,8 @@ exclude:
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
+  - _posts/
+  - assets/jupyter/
   - lighthouse_results/
   - package.json
   - package-lock.json
@@ -287,8 +284,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Cai]
+  first_name: [Jingwei]
 
   style: apa
   locale: en
@@ -346,7 +343,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -383,7 +380,7 @@ enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
+enable_project_categories: false # project pages are not used
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 
