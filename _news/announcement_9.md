@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was named a <strong>2025 ByteDance Scholar</strong>, one of 20 doctoral recipients from China and Singapore.
+I was named a <strong>2025 ByteDance Scholar</strong>, one of 20 doctoral recipients from China and Singapore. :tada:

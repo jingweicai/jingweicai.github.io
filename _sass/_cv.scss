@@ -8,6 +8,25 @@ div.container-link-button {
 
 table.table-cv {
   background-color: transparent !important;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  overflow-x: visible;
+
+  td {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  td:first-child {
+    width: 22%;
+  }
+}
+
+@media (max-width: 576px) {
+  table.table-cv td:first-child {
+    width: 30%;
+  }
 }
 
 a.btncv {

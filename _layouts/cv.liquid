@@ -48,15 +48,29 @@ layout: default
           </div>
         {% endfor %}
       </div>
-      {% if page.cv_compact and page.cv_pdf %}
-        <a
-          href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn btn-outline-primary mt-3"
-        >
-          <i class="fa-solid fa-file-pdf mr-2"></i>View full CV (PDF)
-        </a>
+      {% if page.cv_compact %}
+        <div class="d-flex flex-wrap mt-3">
+          {% if page.cv_pdf_en %}
+            <a
+              href="{{ page.cv_pdf_en | prepend: 'assets/pdf/' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-primary mr-2 mb-2"
+            >
+              <i class="fa-solid fa-file-pdf mr-2"></i>English CV (PDF)
+            </a>
+          {% endif %}
+          {% if page.cv_pdf_cn %}
+            <a
+              href="{{ page.cv_pdf_cn | prepend: 'assets/pdf/' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-primary mb-2"
+            >
+              <i class="fa-solid fa-file-pdf mr-2"></i>中文简历 (PDF)
+            </a>
+          {% endif %}
+        </div>
       {% endif %}
     </article>
   </div>
