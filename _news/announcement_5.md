@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work <strong>SoMa</strong> was accepted to <strong>HPCA 2025</strong>.
+Our work <strong>SoMa</strong> was accepted to <strong>HPCA 2025</strong>. :tada:
